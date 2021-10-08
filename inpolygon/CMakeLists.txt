@@ -7,5 +7,5 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(cvui_app main.cpp)
-target_link_libraries(cvui_app ${OpenCV_LIBS})
+add_executable(app main.cpp)
+target_link_libraries(app ${OpenCV_LIBS})
